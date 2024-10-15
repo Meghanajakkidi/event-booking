@@ -1,0 +1,72 @@
+.container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 4%;
+  
+  
+}
+.eventcontainer{
+  margin-left: 0%;
+  position: relative;
+}
+
+.eventimg{
+  filter: blur(4px);
+  
+}
+
+.card{
+  width: 300px;
+  height: 100px;
+  box-shadow: 2px 2px 2px gainsboro;
+  text-align: center;
+}
+.card-body1{
+  border-bottom: 4px solid darkblue;
+}
+.card-body2{
+  border-bottom: 4px solid green;
+}
+.card-body3{
+  border-bottom: 4px solid yellow;
+}
+.card-body4{
+  border-bottom: 4px solid red;
+}
+.createeventcontainer{
+  background-image: url(https://png.pngtree.com/back_origin_pic/05/06/22/5df2f66f39075b835a3763b73a4ae441.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.contentcontainer{
+  text-align: center;
+}
+.contentcard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.contentdata{
+  width: 20%;
+  height: 10%;
+}
+header{
+  width: 100%;
+  height: 100vh;
+}
+.headcontainer{
+  background-color: whitesmoke;
+  text-align: center;
+  margin-top: 2%;
+}
+.gridheadcontainer{
+  width: 100%;
+  height: 50vh;
+  background-color: navy;
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-template-rows: auto auto auto auto auto auto auto auto ;
+}
